@@ -13,7 +13,7 @@
 .content_menu {
 	background: khaki;
 	padding: 25px 30px;
-	width: 200px;
+	flex-basis: 200px;
 }
 .content_menu p{
 	font-weight: bold;
