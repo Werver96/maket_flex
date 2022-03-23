@@ -1,0 +1,72 @@
+.tittle{
+	background-color: #add8e6;
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: blue;
+	padding: 15px;
+}
+.header_contant {}
+.content_container {
+	display: flex;
+}
+.content_menu {
+	background: khaki;
+	padding: 25px 30px;
+	width: 200px;
+}
+.content_menu p{
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.content_menu li{
+	list-style: disc;
+}
+.content_main {
+	background: url(../image/ball.png) repeat-y right top;
+	padding: 20px;
+}
+.contant_tittle {
+	font-weight: bold;
+	padding-bottom: 20px;
+	font-size: 1.5em;
+	text-align: center;
+}
+.contant_text {}
+.contant_text p:first-of-type{
+	margin-bottom: 10px;
+}
+.contant_text img{
+	float: left;
+	padding-right: 15px;
+}
+.footer_contant {}
+
+@media (max-width:425px){
+.tittle{
+	display: none;
+}
+.content_container{
+	flex-direction: column;
+}
+.content_menu{
+	width: 100vw;
+	order: 2;
+	background: none;
+	padding: 0 15px;
+}
+.content_main{
+	order: 1;
+	width: 100vw;
+	background: none;
+	}
+.contant_text img{
+	width: 100%;
+	padding: 0px 0px 15px 0;
+	}
+.content_menu li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 5px;
+}
+}
