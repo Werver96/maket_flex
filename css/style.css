@@ -25,6 +25,7 @@
 .content_main {
 	background: url(../image/ball.png) repeat-y right top;
 	padding: 20px;
+	flex: 1;
 }
 .contant_tittle {
 	font-weight: bold;
